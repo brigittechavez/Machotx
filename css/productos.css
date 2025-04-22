@@ -4,9 +4,10 @@ font-family: "Anton", sans-serif; Titulos */
 * {
     box-sizing: border-box;
 }
-
-#productos{
+body{
     background-image: url('https://static.vecteezy.com/system/resources/previews/006/731/174/non_2x/black-wall-in-dark-studio-web-background-template-vector.jpg');
+}
+#productos{
     background-size: cover;
     background-position: center;
     padding: 2rem;
