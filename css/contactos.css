@@ -1,0 +1,84 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10rem;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/731/174/non_2x/black-wall-in-dark-studio-web-background-template-vector.jpg);
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+/* Cuadro del formulario */
+.form-card {
+    background-color: rgba(34, 34, 34, 0.85);
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    color: white;
+    box-shadow: 0 0 25px rgba(240, 82, 19, 0.774);
+
+}
+
+/* Título */
+.form-card h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff4500;
+}
+
+/* Espaciado de cada campo */
+.form-box {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+.texto-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs y textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff4500;
+    size-adjust: none;
+}
+
+/* Botón */
+button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #e03e00;
+}
+
+/*Imagen*/
+.image-box img {
+    height: 600px;
+    width: 600px;
+
+}
