@@ -6,7 +6,7 @@ footer {
 
 /* Ajuste del tamaño del logo */
 footer img.footer-logo {
-    max-height: 120px; /* Puedes ajustar este valor según el tamaño que desees */
+    max-height: 150px; /* Puedes ajustar este valor según el tamaño que desees */
     width: auto; /* Mantiene la proporción del logo */
     margin-top: 25px;
 }
