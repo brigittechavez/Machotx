@@ -61,7 +61,7 @@
   margin-bottom: 20px;
 }
 
-.btn-machotx {
+#btn-machotx {
   background-color: #ff2c2c; 
   color: #fff;
   border: none;
@@ -71,6 +71,6 @@
   transition: background 0.3s ease;
 }
 
-.btn-machotx:hover {
+#btn-machotx:hover {
   background-color: #ff1c1c;
 }

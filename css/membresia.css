@@ -1,0 +1,58 @@
+ /*fondo */
+
+.membresia{
+  background-image: url(https://wallpapers.com/images/hd/1920x1080-black-q4w4t8woztvjpicq.jpg);
+  padding-bottom: 4rem;
+}
+  /* cards */
+  h1, .lead {
+    color: white;
+  }
+  .card-body {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .card {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-color: #222222;
+    color: #fff;
+    border: 2px solid transparent;
+    padding-bottom: 2rem;
+    transition: transform 0.3s, border-color 0.3s;
+    
+  }
+  .card-body li {
+    margin: 0.8rem 0;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    border-color: #E63946;
+  }
+  
+  .card-price {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card.recommended {
+    border-color: #E63946;
+    box-shadow: 0 0 20px #E63946;
+  }
+  
+  .titulo{
+    background-color: #E63946;
+    box-shadow: 0 0 20px #E63946;
+    text-shadow: #fff;
+  }
+  .texto{
+    color: white;
+    font-size: 20px;
+    padding: 2rem;
+  }
+  
+
+  
+  
