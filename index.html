@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/productos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    
+
+
+    <section id="productos">
+        <h1>Nuestros productos y suplementos</h1>
+        <div class="contenedor-productos">
+            <!-- Filtro productos -->
+            <div class="filtro" role="tabpanel">
+                <!-- List group -->
+                <div class="list-group" id="myList" role="tablist">
+                    <a class="list-group-item list-group-item-action list-group-item-danger active" data-categoria="todos" href="#todos" role="tab">Todos</a>
+                    <a class="list-group-item list-group-item-action list-group-item-danger" data-categoria="proteinas" href="#proteinas" role="tab">Proteínas</a>
+                    <a class="list-group-item list-group-item-action list-group-item-danger" data-categoria="ganadores-de-masa" href="#ganadores-de-masa" role="tab">Ganadores de masa</a>
+                    <a class="list-group-item list-group-item-action list-group-item-danger" data-categoria="pre-entrenos" href="#pre-entrenos" role="tab">Pre-entrenos</a>
+                    <a class="list-group-item list-group-item-action list-group-item-danger" data-categoria="vitaminas-minerales" href="#vitaminas-minerales" role="tab">Vitaminas y minerales</a>
+                </div>
+            
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="todos" role="tabpanel">...</div>
+                    <div class="tab-pane" id="proteinas" role="tabpanel">...</div>
+                    <div class="tab-pane" id="ganadores-de-masa" role="tabpanel">...</div>
+                    <div class="tab-pane" id="pre-entrenos" role="tabpanel">...</div>
+                    <div class="tab-pane" id="vitaminas-minerales" role="tabpanel">...</div>
+                </div>
+            </div>
+
+            <!-- Card producto -->
+            <div class="contenedor-cards">
+                <div data-categoria="proteinas" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Whey Protein Isolate - Vainilla</div>
+                        <div class="descripcion-producto">Proteína de rápida absorción ideal para después del entrenamiento.</div>
+                        <div class="sub-descripcion-producto">25g de proteína por porción | 0g de azúcar</div>
+                    </div>
+                    <div class="precio-producto">$89.900</div>
+                    <img src="./img-productos/Whey.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐⭐☆</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+
+                <div data-categoria="ganadores-de-masa" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Mass Gainer Xtreme 3000</div>
+                        <div class="descripcion-producto">Suplemento ideal para aumentar masa muscular rápidamente.</div>
+                        <div class="sub-descripcion-producto">Sabor chocolate | 1250 calorías por porción</div>
+                    </div>
+                    <div class="precio-producto">$75.900</div>
+                    <img src="./img-productos/Mass-Gainer.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐⭐⭐</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+
+                <div data-categoria="ganadores-de-masa" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Creatina Monohidratada Micronizada</div>
+                        <div class="descripcion-producto">Aumenta fuerza, potencia y rendimiento físico.</div>
+                        <div class="sub-descripcion-producto">5g por porción | Sin sabor</div>
+                    </div>
+                    <div class="precio-producto">$94.900</div>
+                    <img src="./img-productos/creatina.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐⭐☆</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+
+                <div data-categoria="pre-entrenos" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Pre-Workout Nitro Boost</div>
+                        <div class="descripcion-producto">Energía explosiva y concentración mental para tus entrenamientos.</div>
+                        <div class="sub-descripcion-producto">Con cafeína, beta-alanina y citrulina</div>
+                    </div>
+                    <div class="precio-producto">$55.900</div>
+                    <img src="./img-productos/Nitro-boost.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐⭐⭐</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+
+                <div data-categoria="proteinas" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Caseína Nocturna Recovery</div>
+                        <div class="descripcion-producto">Proteína de digestión lenta perfecta para tomar antes de dormir.</div>
+                        <div class="sub-descripcion-producto">Ayuda a mantener el músculo durante la noche</div>
+                    </div>
+                    <div class="precio-producto">$73.900</div>
+                    <img src="./img-productos/caseina.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐☆☆</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+
+                <div data-categoria="vitaminas-minerales" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Multivitamínico Deportivo Hombre</div>
+                        <div class="descripcion-producto">Vitaminas y minerales esenciales para hombres activos.</div>
+                        <div class="sub-descripcion-producto">Fortalece el sistema inmunológico y mejora la recuperación</div>
+                    </div>
+                    <div class="precio-producto">$42.900</div>
+                    <img src="./img-productos/multi-hombre.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐⭐☆</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+
+                <div data-categoria="pre-entrenos" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Pre-Workout Mujer - Energy Pink</div>
+                        <div class="descripcion-producto">Fórmula pre-entreno diseñada especialmente para mujeres.</div>
+                        <div class="sub-descripcion-producto">Energía limpia, sin crash | Sabor frutos rojos</div>
+                    </div>
+                    <div class="precio-producto">$55.900</div>
+                    <img src="./img-productos/pre-mujer.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐⭐⭐</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+
+                <div data-categoria="proteinas" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Proteína Vegana - Chocolate</div>
+                        <div class="descripcion-producto">Hecha con proteína de guisante y arroz, libre de lactosa.</div>
+                        <div class="sub-descripcion-producto">Ideal para dietas plant-based</div>
+                    </div>
+                    <div class="precio-producto">$64.900</div>
+                    <img src="./img-productos/vegana.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐⭐☆</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+
+                <div data-categoria="vitaminas-minerales" class="card-producto">
+                    <div>
+                        <div class="titulo-producto">Omega 3 Ultra Concentrado</div>
+                        <div class="descripcion-producto">Apoya la salud cardiovascular y la recuperación muscular.</div>
+                        <div class="sub-descripcion-producto">Con aceite de pescado purificado y vitamina E</div>
+                    </div>
+                    <div class="precio-producto">$48.900</div>
+                    <img src="./img-productos/omega.png" alt="Producto" class="imagen-producto">
+                    <div class="inferior-card">
+                        <div class="estrellas">⭐⭐⭐⭐☆</div>
+                        <button class="boton-carrito">🛒</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+<script src="./productos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
