@@ -1,7 +1,7 @@
 /* Estilo general para el footer */
-footer {
+.container-Footer{
     font-family: 'Genos', sans-serif;
-    background-color: #0A0A0A; /* Fondo negro */
+
 }
 
 /* Ajuste del tamaño del logo */

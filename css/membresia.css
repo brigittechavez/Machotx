@@ -1,7 +1,6 @@
  /*fondo */
 
 .membresia{
-  background-image: url(https://wallpapers.com/images/hd/1920x1080-black-q4w4t8woztvjpicq.jpg);
   padding-bottom: 4rem;
 }
   /* cards */
@@ -43,8 +42,8 @@
   }
   
   .titulo{
-    background-color: #E63946;
-    box-shadow: 0 0 20px #E63946;
+    background-color: #FF4F00;
+    box-shadow: 0 0 20px #FF4F00;
     text-shadow: #fff;
   }
   .texto{
