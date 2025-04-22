@@ -1,0 +1,75 @@
+/* Estilo general para el footer */
+footer {
+    font-family: 'Genos', sans-serif;
+    background-color: #0A0A0A; /* Fondo negro */
+}
+
+/* Ajuste del tamaño del logo */
+footer img.footer-logo {
+    max-height: 120px; /* Puedes ajustar este valor según el tamaño que desees */
+    width: auto; /* Mantiene la proporción del logo */
+    margin-top: 25px;
+}
+
+/* Si deseas que el logo cambie de tamaño en pantallas más pequeñas */
+@media (max-width: 767px) {
+    footer img.footer-logo {
+        max-height: 40px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
+    }
+}
+
+/* Estilo del texto de los párrafos */
+footer p {
+    font-family: 'Nunito', sans-serif;
+    color: white; /* Color de texto blanco para contrastar con el fondo oscuro */
+}
+
+/* Personalización de los botones en el footer */
+footer .btn-primary {
+    background-color: #FF4F00; /* Color personalizado del botón */
+    border-color: #2E2E2E; /* Asegura que el borde también tenga el mismo color */
+}
+
+footer .btn-primary:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse */
+    border-color: #0056b3;
+}
+
+/* Ajustes de espaciado en pantallas pequeñas */
+@media (max-width: 767px) {
+    footer {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    footer .row {
+        text-align: center;
+    }
+
+    footer .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Personalización del formulario */
+footer .form-control {
+    border-radius: 20px; /* Redondea los bordes del input */
+    padding-left: 1rem; /* Agrega espacio al interior del input */
+}
+
+/* Estilo del texto inferior */
+footer .mb-1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color: white; /* Color de texto blanco */
+}
+
+/* Iconos de redes sociales */
+footer .fab {
+    color: white; /* Color de los iconos de redes sociales */
+    font-size: 1.5rem; /* Tamaño de los iconos */
+}
+
+footer .fab:hover {
+    color: #FF4F00; /* Cambia el color al pasar el mouse */
+}
