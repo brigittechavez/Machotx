@@ -1,11 +1,13 @@
 .carousel {
-  max-width: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
 }
-
+ 
 .carousel-img {
-  height: 500px; 
+  height: 600px;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -80,3 +82,4 @@
   background: none !important;
   border: none !important;
 }
+

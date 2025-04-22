@@ -1,0 +1,27 @@
+
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Fredoka:wght@300..700&family=Genos:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Knewave&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DE+Grund:wght@100..400&family=Slackey&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+h1, h2 {
+    font-family: 'Anton', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+ 
+  }
+
+p{
+    font-family: "Genos", sans-serif;
+}
