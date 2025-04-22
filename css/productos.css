@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Fredoka:wght@300..700&family=Genos:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Knewave&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DE+Grund:wght@100..400&family=Slackey&display=swap');
+/* font-family: "Genos", sans-serif; subtitulos y parrafos
+font-family: "Anton", sans-serif; Titulos */
+* {
+    box-sizing: border-box;
+}
+
+#productos{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/731/174/non_2x/black-wall-in-dark-studio-web-background-template-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#productos h1{
+    font-family: "Anton", sans-serif;
+    font-size: 2.5rem;
+    color: #FF4F00;
+    text-align: center;
+}
+.contenedor-productos {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+/*------------contenedor filtro------------------*/
+.filtro {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*---------------------------Contenedor productos-----------------------*/
+.contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.cards-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex: 1;
+}
+.card-producto {
+    position: relative;
+    width: 300px;
+    margin: 10px;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(108, 117, 125, 0.5);
+    background: linear-gradient(-45deg, #0A0A0A 50%, #E63946 50%);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo-producto {
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 85%;
+}
+.descripcion-producto {
+    font-family: "Genos", sans-serif;
+    padding-top: 5px;
+    font-size: 1.15rem;
+    opacity: 0.8;
+}
+.sub-descripcion-producto{
+    font-family: "Genos", sans-serif;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.precio-producto {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Genos", sans-serif;
+    font-weight: bold;
+    font-size: 1.05rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.imagen-producto {
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+.inferior-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.estrellas {
+    color: gold;
+    font-size: 1rem;
+}
+.boton-carrito {
+    background-color: white;
+    color: #0A0A0A;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.boton-carrito:hover {
+    background-color: #FF4F00;
+    color: white;
+}
