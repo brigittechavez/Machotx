@@ -6,10 +6,11 @@ font-family: "Anton", sans-serif; Titulos */
 }
 body{
     background-image: url('https://static.vecteezy.com/system/resources/previews/006/731/174/non_2x/black-wall-in-dark-studio-web-background-template-vector.jpg');
-}
-#productos{
     background-size: cover;
     background-position: center;
+}
+#productos{
+    
     padding: 2rem;
     display: flex;
     flex-direction: column;
