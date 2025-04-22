@@ -16,7 +16,7 @@
     border-radius: 12px;
     width: 100%;
     max-width: 400px;
-    height: 500px;
+    height: auto;
     color: white;
     box-shadow: 0 0 25px rgba(240, 82, 19, 0.774);
 
