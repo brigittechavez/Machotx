@@ -1,33 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Fredoka:wght@300..700&family=Genos:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Knewave&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DE+Grund:wght@100..400&family=Slackey&display=swap');
+
 /* Estilo general para el footer */
 .container-Footer{
     font-family: 'Genos', sans-serif;
 
+
 }
 
+#encabezado-footer{
+    width: 100%;
+
+}
 /* Ajuste del tamaño del logo */
 footer img.footer-logo {
-    max-height: 150px; /* Puedes ajustar este valor según el tamaño que desees */
-    width: auto; /* Mantiene la proporción del logo */
+    max-height: 150px; 
+    width: auto;
     margin-top: 25px;
 }
 
-/* Si deseas que el logo cambie de tamaño en pantallas más pequeñas */
 @media (max-width: 767px) {
     footer img.footer-logo {
-        max-height: 40px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
+        max-height: 40px; 
     }
 }
 
 /* Estilo del texto de los párrafos */
 footer p {
     font-family: 'Nunito', sans-serif;
-    color: white; /* Color de texto blanco para contrastar con el fondo oscuro */
+    color: white; 
 }
 
-/* Personalización de los botones en el footer */
+
 footer .btn-primary {
-    background-color: #FF4F00; /* Color personalizado del botón */
-    border-color: #2E2E2E; /* Asegura que el borde también tenga el mismo color */
+    width: 100px;
+    background-color: #FF4F00;
+    border-color: #2E2E2E; 
 }
 
 footer .btn-primary:hover {
@@ -53,15 +60,15 @@ footer .btn-primary:hover {
 
 /* Personalización del formulario */
 footer .form-control {
-    border-radius: 20px; /* Redondea los bordes del input */
-    padding-left: 1rem; /* Agrega espacio al interior del input */
+    border-radius: 20px; 
+    padding-left: 1rem; 
 }
 
 /* Estilo del texto inferior */
 footer .mb-1 {
-    font-family: 'Anton', sans-serif;
-    font-weight: bold;
-    color: white; /* Color de texto blanco */
+    font-family: "Genos", sans-serif;
+
+    color: white; 
 }
 
 /* Iconos de redes sociales */
@@ -71,5 +78,5 @@ footer .fab {
 }
 
 footer .fab:hover {
-    color: #FF4F00; /* Cambia el color al pasar el mouse */
+    color: #FF4F00; 
 }
