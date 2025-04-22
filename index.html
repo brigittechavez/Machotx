@@ -196,6 +196,17 @@
     </section>
 
     <section>
+        <div id="contenedor-membresia"></div>
+        <script>
+        fetch('components/membresia.html')
+            .then(res => res.text())
+            .then(data => {
+            document.getElementById('contenedor-membresia').innerHTML = data;
+            });
+        </script>
+    </section>
+
+    <section>
         <div id="contenedor-contacto"></div>
         <script>
         fetch('components/contactos.html')
