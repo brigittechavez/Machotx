@@ -1,0 +1,36 @@
+/* Fondo rojo para la navbar */
+.navbar-custom {
+    background-color: #E63946;
+    font-family: 'Anton', sans-serif;
+  }
+  
+  /* Logo personalizado con Anton */
+  .navbar-brand {
+    font-family: 'Anton', sans-serif;
+    color: white !important;
+  }
+  
+  /* Estilo para enlaces de navegación */
+  .nav-link {
+    color: white !important;
+    font-weight: 500;
+  }
+  
+  /* Botón "Membresía Black" */
+  .btn-black {
+    background-color: #B11226;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-black:hover {
+    background-color: #8c0e1e;
+  }
+  
+  /* Ícono carrito de compras */
+  .bi-cart3 {
+    vertical-align: middle;
+  }
+  
